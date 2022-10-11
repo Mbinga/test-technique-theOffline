@@ -1,5 +1,4 @@
 const ResumeItem = ({ item }) => {
-    console.log("item =>", item);
     return (
         <div className="elem">
             <div className="label">{Object.keys(item)}</div>
